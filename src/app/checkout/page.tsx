@@ -241,7 +241,8 @@ async function handlePayment(value: PaymentFormValues) {
           <div className="space-y-3 max-h-56 overflow-y-auto mb-5 pr-1">
             <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
               <div className="w-14 h-14 rounded-lg bg-white p-1 border border-gray-100 shrink-0">
-                {/* <Image alt="Logo T-Shirt Green" className="w-full h-full object-contain" src="https://ecommerce.routemisr.com/Route-Academy-products/1680400287654-cover.jpeg" /></div> */}
+                {/* <Image alt="Logo T-Shirt Green" className="w-full h-full object-contain" src="https://ecommerce.routemisr.com/Route-Academy-products/1680400287654-cover.jpeg" /> */}
+              </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-gray-900 truncate">Logo T-Shirt Green</p>
                 <p className="text-xs text-gray-500 mt-0.5">1 × 744 EGP</p>
@@ -267,7 +268,7 @@ async function handlePayment(value: PaymentFormValues) {
             </div>
           </div>
           <button type="submit" 
-        className="w-full mt-6 bg-gradient-to-r from-green-600 to-green-700 text-white py-4 rounded-xl font-bold hover:from-green-700 hover:to-green-800 transition-all disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg shadow-green-600/20 active:scale-[0.98]"
+        className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white py-4 px-6 rounded-xl font-semibold hover:from-green-700 hover:to-green-800 transition-all flex items-center justify-center gap-3 shadow-lg shadow-green-600/20 active:scale-[0.98]"
           >  <FaBox /> Place Order </button>
           <div className="flex items-center justify-center gap-4 mt-4 py-3 border-t border-gray-100">
             <div className="flex items-center gap-1.5 text-xs text-gray-500">
@@ -289,7 +290,7 @@ async function handlePayment(value: PaymentFormValues) {
       </div>
     </div>
   </div>
-  </div>
+  
   </form>
 </div>
     </>

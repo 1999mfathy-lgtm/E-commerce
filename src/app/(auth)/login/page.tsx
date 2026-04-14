@@ -124,7 +124,7 @@ const handleLogin = async (values: loginFormData) => {
           </div>
           <div>
             <div className="flex items-center justify-between mb-2"><label htmlFor="password" className="block text-sm font-semibold text-gray-700">Password</label>
-            <Link className="text-sm text-green-600 hover:text-green-700 cursor-pointer font-medium" href="/forget-password">Forgot Password?</Link></div>
+            <Link className="text-sm text-green-600 hover:text-green-700 cursor-pointer font-medium" href="/signup">Forgot Password?</Link></div>
             <div className="relative">
               <input {...register("password")} id="password" className="w-full px-4 py-3 pl-12 pr-12 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-100 transition-all" placeholder="Enter your password"  type={showPassword ? "text" : "password"} name="password" />
               <FaLock className=' absolute left-4 top-1/2 -translate-y-1/2 text-gray-400'/>

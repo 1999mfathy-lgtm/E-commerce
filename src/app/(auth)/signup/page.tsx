@@ -210,8 +210,8 @@ export default function SignupForm() {
         />
         <label>
           I agree to the{" "}
-          <Link href="/Term" className="text-green-600 hover:underline">Terms of Service</Link> and{" "}
-          <Link href="/Privacy" className="text-green-600 hover:underline">Privacy Policy</Link>*
+          <Link href="/terms" className="text-green-600 hover:underline">Terms of Service</Link> and{" "}
+          <Link href="/privacy" className="text-green-600 hover:underline">Privacy Policy</Link>*
         </label>
       </div>
 

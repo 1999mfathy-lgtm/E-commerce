@@ -52,7 +52,7 @@ export default function notfound() {
       <div className="  flex flex-wrap items-center justify-center gap-3">
         <Link className="px-5 py-2.5 rounded-xl bg-green-50 text-green-700 font-semibold text-sm hover:bg-green-100 transition-colors" href="/products">All Products</Link>
         <Link className="px-5 py-2.5 rounded-xl bg-gray-100 text-gray-700 font-semibold text-sm hover:bg-gray-200 transition-colors" href="/categories">Categories</Link>
-        <Link className="px-5 py-2.5 rounded-xl bg-gray-100 text-gray-700 font-semibold text-sm hover:bg-gray-200 transition-colors" href="/deals">Today's Deals</Link>
+        <Link className="px-5 py-2.5 rounded-xl bg-gray-100 text-gray-700 font-semibold text-sm hover:bg-gray-200 transition-colors" href="/contact">Today's Deals</Link>
       <Link className="px-5 py-2.5 rounded-xl bg-gray-100 text-gray-700 font-semibold text-sm hover:bg-gray-200 transition-colors" href="/contact">Contact Us</Link></div>
     </div>
   </div>

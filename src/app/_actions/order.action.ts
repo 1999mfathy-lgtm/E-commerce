@@ -19,8 +19,10 @@ return finalRes }
 
 
 export async function createVisaOrder(cartId:string, shippingAddress :shippingAddressType){
- const token = await getMyToken()
- const res = await fetch (`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:3000`,{
+ const token = await getMyToken();
+ const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+ const res = await fetch (`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=${baseUrl}`,{
    headers :{  token: token as string,
         "Content-Type": "application/json"
     },

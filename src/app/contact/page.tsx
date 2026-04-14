@@ -134,7 +134,7 @@ export default function Contact() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Looking for quick answers?</h3>
               <p className="text-gray-600 text-sm mb-3">Check out our Help Center for frequently asked questions about orders, shipping, returns, and more.</p>
-              <Link className="text-green-600 font-medium text-sm hover:underline inline-flex items-center gap-1" href="/help">Visit Help Center →</Link>
+              <Link className="text-green-600 font-medium text-sm hover:underline inline-flex items-center gap-1" href="/privacy">Visit Help Center →</Link>
             </div>
           </div>
         </div>

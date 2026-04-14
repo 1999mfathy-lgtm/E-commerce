@@ -133,21 +133,21 @@ function Social({ icon , active = false }: { icon: React.ReactNode; active?: boo
         <h3 className="font-semibold text-lg mb-5">Account</h3>
         <ul className="space-y-3">
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/profile">My Account</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/profile/orders">Order History</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/orders">Order History</Link></li>
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/wishlist">Wishlist</Link></li>
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/cart">Shopping Cart</Link></li>
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/login">Sign In</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/register">Create Account</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/signup">Create Account</Link></li>
         </ul>
       </div>
       <div className="lg:col-span-2">
         <h3 className="font-semibold text-lg mb-5">Support</h3>
         <ul className="space-y-3">
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/contact">Contact Us</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/help">Help Center</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/shipping">Shipping Info</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/returns">Returns &amp; Refunds</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/track-order">Track Order</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/contact">Help Center</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/contact">Shipping Info</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/contact">Returns &amp; Refunds</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/contact">Track Order</Link></li>
         </ul>
       </div>
       <div className="lg:col-span-2">
@@ -155,7 +155,7 @@ function Social({ icon , active = false }: { icon: React.ReactNode; active?: boo
         <ul className="space-y-3">
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/privacy">Privacy Policy</Link></li>
           <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/terms">Terms of Service</Link></li>
-          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/cookies">Cookie Policy</Link></li>
+          <li><Link className="text-gray-400 hover:text-green-400 transition-colors text-sm" href="/terms">Cookie Policy</Link></li>
         </ul>
       </div>
     </div>

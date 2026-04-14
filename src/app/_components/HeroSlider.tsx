@@ -32,7 +32,7 @@ export default function HeroSlider() {
               <p>Get 20% off your first order</p>
               <div className="mt-4">
                 <Link className="btn bg-white border-2 border-white/50 text-green-500 inline-block px-6 py-2 rounded-lg font-semibold hover:scale-105 transition-transform" href="/products">Shop Now</Link>
-                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold hover:scale-105 transition-transform" href="/delivery">View Deals</Link>
+                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold hover:scale-105 transition-transform" href="/products">View Deals</Link>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ export default function HeroSlider() {
               <p>Fresh from farm to your table</p>
               <div className="mt-4">
                 <Link className="btn bg-white border-2 border-white/50 text-blue-500 inline-block px-6 py-2 rounded-lg font-semibold " href="/products">Shop Now</Link>
-                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold " href="/delivery">Learn More</Link>
+                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold " href="/products">Learn More</Link>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@ export default function HeroSlider() {
               <p>Same day delivery available</p>
               <div className="mt-4">
                 <Link className="btn bg-white border-2 border-white/50 text-purple-500 inline-block px-6 py-2 rounded-lg font-semibold " href="/products">Order Now</Link>
-                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold " href="/delivery">Delivery Info</Link>
+                <Link className="btn bg-transparent border-2 border-white/50 text-white ml-2 inline-block px-6 py-2 rounded-lg font-semibold " href="/products">Delivery Info</Link>
                 </div>
             </div>
         </div>
